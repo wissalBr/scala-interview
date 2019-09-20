@@ -5,12 +5,26 @@ RESTful : (The particularity of this architecture is that the server part and th
 and content of the information stored on the server.
 
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
-
+* A simple URl adress for th services
+* HTTP for the communication client/server
+* Stateless communication
+* XML/JSON as formatting language
 
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
+* GET :retrieves data from the server.
+* PUT : used to update an existing entity.
+* POST : used for crating an entity or a resourse without an id.
 
 4) Explain the difference between stateless and stateful protocol. Which type of protocol is HTTP ?
+Stateless Protocol does not require the server to retain the server information or session details. 
+Stateful Protocol require server to save the status and session information.
+HTTP is a stateful protocol.
 
 5) Explain the difference between a GET and a POST (like how are sent the parameters)
+POST requests supply additional data from the client (browser) to the server in the message body and can send parameters, including uploading files, to the server.
+In contrast, GET requests include all required data in the URL but the parameter data is limited to what we can 
+stuff into the request line (URL)
 
 6) You can’t work out how to solve a coding problem. What do you do to find the answer?
+If I can't work out how to solve a coding problem, I'll try tp simplify it so I can find a manuel solution with the minimum of data.
+Then, I can write a simple pseudocode to translate it later to a complete code with exact set of data.
