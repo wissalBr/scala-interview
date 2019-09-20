@@ -1,7 +1,11 @@
 
 1) Explain REST and RESTful
+REST : Representational State Transfer, is a software architecture that defines a set of contraints to create web services.
+RESTful : (The particularity of this architecture is that the server part and the client part communicate without the client knowing the structure 
+and content of the information stored on the server.
 
 2) Explain the architectural style for the creation of a web API (client server communication, formatting language, etc.)
+
 
 3) Explain HTTP requests types when used with RESTful web (GET, PUT, POST, etc.)
 
